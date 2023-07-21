@@ -145,7 +145,7 @@ header .text-content .job{
 .buttons button:hover{
   transform: scale(0.97);
 }
-.content .prem img{
+.content .gradient img{
   position: absolute;
   height: 75%;
   bottom: 0;
