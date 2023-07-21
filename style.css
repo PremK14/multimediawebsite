@@ -146,17 +146,16 @@ header .text-content .job{
   transform: scale(0.97);
 }
 .content .gradient img{
-  position: absolute;
   height: 75%;
-  bottom: 0;
+  bottom: 30px;
   right: 80px;
-  position: absolute;
+  margin-left: 473px;
 }
 header .media-icons{
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 40px;
+  right: 80px;
   bottom: 40px;
 }
 .media-icons a{
