@@ -5,12 +5,7 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
-header{
-  height: 100vh;
-  width: 100%;
-  background: url("images/background.png") no-repeat;
-  background-position: center;
-}
+
 ::selection{
   background: #a3f5ec;
 }
@@ -21,6 +16,45 @@ header nav{
   top: 0;
   z-index: 12;
 }
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+h1, p {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-top: 30vh;
+}
+
+p { font-size: 2rem; }
+
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
 .navbar{
   width: 90%;
   display: flex;
