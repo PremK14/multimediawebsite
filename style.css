@@ -146,10 +146,11 @@ header .text-content .job{
   transform: scale(0.97);
 }
 .content .gradient img{
-  height: 75%;
-  bottom: 30px;
-  right: 80px;
-  margin-left: 473px;
+  height: 100%;
+  bottom: 700px;
+  right: 300px;
+  margin-left: 835px;
+  margin-top: 186px;
 }
 header .media-icons{
   display: flex;
